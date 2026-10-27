@@ -1,0 +1,9 @@
+assets/data/*
+!assets/data/labels_1_85.csv
+!assets/data/frozen_training_metadata.csv
+assets/weights
+outputs/
+__pycache__/
+*.py[cod]
+.env
+.ipynb_checkpoints/

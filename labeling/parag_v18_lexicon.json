@@ -1,0 +1,2017 @@
+{
+  "findings": {
+    "ACL": {
+      "en": [
+        "acl",
+        "anterior cruciate ligament"
+      ],
+      "es": [
+        "lca",
+        "ligamento cruzado anterior",
+        "ligamento cruzado anterointerno"
+      ],
+      "tr": [
+        "acl",
+        "anterior çapraz bağ",
+        "ön çapraz bağ",
+        "öçb"
+      ],
+      "hr": [
+        "acl",
+        "prednja križna sveza",
+        "prednji križni",
+        "prednji križni ligament"
+      ],
+      "el": [
+        "acl",
+        "πρόσθιος χιαστός",
+        "πρόσθιος χιαστός σύνδεσμος",
+        "πχσ"
+      ],
+      "de": [
+        "acl",
+        "vkb",
+        "vorderes kreuzband"
+      ],
+      "bg": [
+        "acl",
+        "пкв",
+        "преден кръстен лигамент",
+        "предна кръстна връзка",
+        "предната кръстна връзка"
+      ],
+      "nl": [
+        "acl",
+        "voorste kruisband",
+        "voorste kruisbanden",
+        "voorste kruisbandruptuur"
+      ],
+      "fr": [
+        "croisé antérieur",
+        "lca",
+        "ligament croisé antérieur"
+      ]
+    },
+    "MCL": {
+      "en": [
+        "mcl",
+        "medial collateral ligament",
+        "medial collateral ligament complex"
+      ],
+      "es": [
+        "complejo ligamentario medial",
+        "lcm",
+        "ligamento colateral medial",
+        "ligamento lateral interno",
+        "lli"
+      ],
+      "tr": [
+        "iç yan bağ",
+        "mcl",
+        "medial kollateral ligaman",
+        "medial kollateral ligament"
+      ],
+      "hr": [
+        "mcl",
+        "medijalni kolateralni",
+        "medijalni kolateralni ligament",
+        "unutarnji kolateralni ligament"
+      ],
+      "el": [
+        "mcl",
+        "έσω πλάγιος",
+        "έσω πλάγιος σύνδεσμος",
+        "έσω πλαγιαίο σύνδεσμο",
+        "έσω πλαγιος σύνδεσμος"
+      ],
+      "de": [
+        "lig. collaterale mediale",
+        "ligamentum collaterale mediale",
+        "mcl",
+        "mediales kollateralband",
+        "mediales seitenband"
+      ],
+      "bg": [
+        "медиален колатерален лигамент",
+        "медиален колатерален лигамент на коляното",
+        "медиална колатерална връзка",
+        "мкл"
+      ],
+      "nl": [
+        "mcl",
+        "mediaal collateraal ligament",
+        "mediaal collaterale ligament",
+        "mediale collaterale band"
+      ],
+      "fr": [
+        "complexe ligamentaire collatéral interne",
+        "lcm",
+        "ligament collatéral interne",
+        "ligament collatéral médial"
+      ]
+    },
+    "Medial Meniscus": {
+      "en": [
+        "medial meniscal degeneration",
+        "medial meniscal root",
+        "medial meniscal tear",
+        "medial meniscus"
+      ],
+      "es": [
+        "menisco interno",
+        "menisco interno medial",
+        "menisco medial"
+      ],
+      "tr": [
+        "iç menisküs",
+        "medial meniskal yapı",
+        "medial menisküs",
+        "medyal menisküs"
+      ],
+      "hr": [
+        "medijalni menisk",
+        "medijalni meniskus",
+        "unutarnji menisk"
+      ],
+      "el": [
+        "έσω μηνίσκος",
+        "έσω μηνισκικός",
+        "μηνίσκος έσω διαμερίσματος"
+      ],
+      "de": [
+        "im",
+        "innenmeniskus",
+        "medialer meniskus",
+        "meniscus medialis"
+      ],
+      "bg": [
+        "вътрешен менискус",
+        "медиален менискус",
+        "медиална менискална лезия",
+        "медиалния менискус"
+      ],
+      "nl": [
+        "mediale meniscus",
+        "mediale meniscusscheur",
+        "meniscus medialis",
+        "scheur van de mediale meniscus"
+      ],
+      "fr": [
+        "ménisque interne",
+        "ménisque médial"
+      ]
+    },
+    "Lateral Meniscus": {
+      "en": [
+        "lateral meniscal degeneration",
+        "lateral meniscal root",
+        "lateral meniscal tear",
+        "lateral meniscus"
+      ],
+      "es": [
+        "menisco externo",
+        "menisco externo lateral",
+        "menisco lateral"
+      ],
+      "tr": [
+        "dış menisküs",
+        "lateral meniskal yapı",
+        "lateral menisküs"
+      ],
+      "hr": [
+        "lateralni menisk",
+        "lateralni meniskus",
+        "vanjski menisk"
+      ],
+      "el": [
+        "έξω μηνίσκος",
+        "έξω μηνισκικός",
+        "μηνίσκος έξω διαμερίσματος"
+      ],
+      "de": [
+        "am",
+        "außenmeniskus",
+        "lateraler meniskus",
+        "meniscus lateralis"
+      ],
+      "bg": [
+        "външен менискус",
+        "латерален менискус",
+        "латерална менискална лезия",
+        "латералния менискус"
+      ],
+      "nl": [
+        "laterale meniscus",
+        "laterale meniscusscheur",
+        "meniscus lateralis",
+        "scheur van de laterale meniscus"
+      ],
+      "fr": [
+        "ménisque externe",
+        "ménisque latéral"
+      ]
+    },
+    "Medial OA": {
+      "en": [
+        "medial compartment chondromalacia",
+        "medial compartment chondrosis",
+        "medial compartment oa",
+        "medial compartment osteoarthritis",
+        "medial tibiofemoral osteoarthritis"
+      ],
+      "es": [
+        "artrosis femorotibial medial",
+        "artrosis medial",
+        "oa femorotibial medial",
+        "osteoartrosis femorotibial medial"
+      ],
+      "tr": [
+        "medial eklem dejenerasyonu",
+        "medial femoral tibyal eklem dejenerasyonu",
+        "medial femorotibial osteoartrit",
+        "medial kompartman artrozu",
+        "medial osteoartrit"
+      ],
+      "hr": [
+        "degenerativne promjene medijalnog kompartmenta",
+        "medijalna gonartroza",
+        "medijalni ft zglob",
+        "oa medijalnog kompartmenta",
+        "osteoartritičke promjene medijalnog kompartmenta"
+      ],
+      "el": [
+        "έσω διαμέρισμα",
+        "έσω διαμερισματική οστεοαρθρίτιδα",
+        "έσω μεσάρθριο διάστημα",
+        "εκφυλιστική οστεοαρθρίτιδα έσω διαμερίσματος",
+        "οστεοαρθρίτιδα έσω διαμερίσματος"
+      ],
+      "de": [
+        "arthrose im medialen kompartiment",
+        "mediale femorotibiale arthrose",
+        "mediale gonarthrose",
+        "mediale kompartimentarthrose"
+      ],
+      "bg": [
+        "дегенеративни промени в медиалното отделение",
+        "медиален остеоартрит",
+        "медиална артроза",
+        "медиална гонартроза"
+      ],
+      "nl": [
+        "artrose mediaal femorotibiaal",
+        "mediaal femorotibiaal kraakbeenlijden",
+        "mediale compartimentsartrose",
+        "mediale femorotibiale artrose",
+        "mediale gonartrose"
+      ],
+      "fr": [
+        "arthrose du compartiment interne",
+        "arthrose du compartiment médial",
+        "arthrose fémoro-tibiale interne",
+        "changements dégénératifs du compartiment interne",
+        "chondropathie du compartiment médial"
+      ]
+    },
+    "Lateral OA": {
+      "en": [
+        "lateral compartment chondromalacia",
+        "lateral compartment chondrosis",
+        "lateral compartment oa",
+        "lateral compartment osteoarthritis",
+        "lateral tibiofemoral osteoarthritis"
+      ],
+      "es": [
+        "artrosis femorotibial lateral",
+        "artrosis lateral",
+        "oa femorotibial lateral",
+        "osteoartrosis femorotibial lateral"
+      ],
+      "tr": [
+        "lateral eklem dejenerasyonu",
+        "lateral femoral tibyal eklem dejenerasyonu",
+        "lateral femorotibial osteoartrit",
+        "lateral kompartman artrozu",
+        "lateral osteoartrit"
+      ],
+      "hr": [
+        "degenerativne promjene lateralnog kompartmenta",
+        "lateralna gonartroza",
+        "lateralni ft zglob",
+        "oa lateralnog kompartmenta",
+        "osteoartritičke promjene lateralnog kompartmenta"
+      ],
+      "el": [
+        "έξω διαμέρισμα",
+        "έξω διαμερισματική οστεοαρθρίτιδα",
+        "έξω μεσάρθριο διάστημα",
+        "εκφυλιστική οστεοαρθρίτιδα έξω διαμερίσματος",
+        "οστεοαρθρίτιδα έξω διαμερίσματος"
+      ],
+      "de": [
+        "arthrose im lateralen kompartiment",
+        "laterale femorotibiale arthrose",
+        "laterale gonarthrose",
+        "laterale kompartimentarthrose"
+      ],
+      "bg": [
+        "дегенеративни промени в латералното отделение",
+        "латерален остеоартрит",
+        "латерална артроза",
+        "латерална гонартроза"
+      ],
+      "nl": [
+        "artrose lateraal femorotibiaal",
+        "lateraal femorotibiaal kraakbeenlijden",
+        "laterale compartimentsartrose",
+        "laterale femorotibiale artrose",
+        "laterale gonartrose"
+      ],
+      "fr": [
+        "arthrose du compartiment latéral",
+        "arthrose fémoro-tibiale externe",
+        "changements dégénératifs du compartiment latéral",
+        "chondropathie du compartiment latéral"
+      ]
+    },
+    "PF OA": {
+      "en": [
+        "patellar chondromalacia",
+        "patellofemoral chondromalacia",
+        "patellofemoral chondrosis",
+        "patellofemoral oa",
+        "patellofemoral osteoarthritis"
+      ],
+      "es": [
+        "artrosis femoropatelar",
+        "artrosis patelofemoral",
+        "oa patelofemoral",
+        "osteoartrosis patelofemoral"
+      ],
+      "tr": [
+        "kondromalazi",
+        "patellafemoral osteoartrit",
+        "patellar kondromalazi",
+        "patellofemoral eklem dejenerasyonu",
+        "patellofemoral osteoartrit"
+      ],
+      "hr": [
+        "femoropatelarni zglob",
+        "fp zglob",
+        "oa femoropatelarnog zgloba",
+        "osteoartritičke promjene femoropatelarnog zgloba",
+        "patelofemoralni zglob"
+      ],
+      "el": [
+        "εκφυλιστική οστεοαρθρίτιδα επιγονατιδομηριαίας άρθρωσης",
+        "επιγονατιδομηριαία οστεοαρθρίτιδα",
+        "επιγονατιδομηριαία συμβολή",
+        "οστεοαρθρίτιδα επιγονατιδομηριαίας άρθρωσης",
+        "πρόσθιο διαμέρισμα"
+      ],
+      "de": [
+        "arthrose im femoropatellaren kompartiment",
+        "femoropatellare arthrose",
+        "patellofemorale arthrose",
+        "retropatellararthrose"
+      ],
+      "bg": [
+        "пателарна хондропатия",
+        "пателофеморален остеоартрит",
+        "пателофеморална гонартроза",
+        "ретропателарна артроза",
+        "хондромалация на пателата"
+      ],
+      "nl": [
+        "chondromalacie patellae",
+        "femoropatellair kraakbeenlijden",
+        "femoropatellaire artrose",
+        "patellair kraakbeenlijden",
+        "patellofemorale artrose"
+      ],
+      "fr": [
+        "arthrose fémoropatellaire",
+        "arthrose patellofémorale",
+        "changements dégénératifs patellofémoraux",
+        "chondropathie fémoropatellaire",
+        "chondropathie patellofémorale",
+        "chondrose fémororotulienne"
+      ]
+    },
+    "Effusion": {
+      "en": [
+        "effusion",
+        "intra-articular fluid",
+        "joint effusion",
+        "joint fluid",
+        "knee effusion"
+      ],
+      "es": [
+        "derrame",
+        "derrame articular",
+        "efusión articular",
+        "líquido articular"
+      ],
+      "tr": [
+        "effüzyon",
+        "efüzyon",
+        "eklem içi sıvı artışı",
+        "eklem mayisi artışı",
+        "eklem sıvısı artışı",
+        "eklemde sıvı artışı"
+      ],
+      "hr": [
+        "intraartikularni izljev",
+        "izljev",
+        "izljev u koljenu",
+        "slobodna tekućina",
+        "tekućina u zglobu",
+        "zglobni izljev"
+      ],
+      "el": [
+        "αιμορραγική ενδαρθρική συλλογή",
+        "ενδαρθρική συλλογή υγρού",
+        "ενδαρθρικό υγρό",
+        "συλλογή υγρού ενδαρθρικά",
+        "ύδραρθρο"
+      ],
+      "de": [
+        "akzentuierte gelenkflüssigkeit",
+        "gelenkerguss",
+        "gelenkflüssigkeit",
+        "hämarthros",
+        "kniegelenkserguss",
+        "reizerguss"
+      ],
+      "bg": [
+        "ставен излив",
+        "ставна течност",
+        "течност в ставата",
+        "хемартроза",
+        "хеморагичен ставен излив"
+      ],
+      "nl": [
+        "gewrichtseffusie",
+        "gewrichtsuitstorting",
+        "gewrichtsvocht",
+        "hydrops",
+        "opzetting van de suprapatellaire recessus"
+      ],
+      "fr": [
+        "liquide intra-articulaire",
+        "liséré de liquide",
+        "épanchement articulaire",
+        "épanchement intra-articulaire"
+      ]
+    },
+    "Synovitis": {
+      "en": [
+        "chronic synovitis",
+        "hypertrophy of the synovium",
+        "nonspecific synovitis",
+        "synovial hypertrophy",
+        "synovitis"
+      ],
+      "es": [
+        "inflamación sinovial",
+        "sinovitis",
+        "sinovitis difusa"
+      ],
+      "tr": [
+        "sinovit",
+        "sinovyal hipertrofi",
+        "sinovyal kalınlaşma",
+        "sinovyal proliferasyon"
+      ],
+      "hr": [
+        "sinovijalna proliferacija",
+        "sinovijalna reakcija",
+        "sinovijalne vegetacije",
+        "sinovitis"
+      ],
+      "el": [
+        "πάχυνση αρθρικού υμένα",
+        "πάχυνση του αρθρικού υμένα",
+        "υμενίτιδα",
+        "υμενίτις",
+        "υμενική πάχυνση"
+      ],
+      "de": [
+        "reizsynovialitis",
+        "reizzustand der synovia",
+        "synoviale proliferationen",
+        "synovialitis",
+        "synovitis"
+      ],
+      "bg": [
+        "пролиферация на синовията",
+        "синовиална хипертрофия",
+        "синовиално възпаление",
+        "синовит"
+      ],
+      "nl": [
+        "artrosynovitis",
+        "synoviale hypertrofie",
+        "synovitis",
+        "verdikking van het synovium",
+        "verdikkingen van het synovium"
+      ],
+      "fr": [
+        "prolifération synoviale",
+        "synovite",
+        "épaississement synovial"
+      ]
+    },
+    "Baker's": {
+      "en": [
+        "baker cyst",
+        "baker's cyst",
+        "popliteal cyst",
+        "popliteal synovial cyst"
+      ],
+      "es": [
+        "quiste de baker",
+        "quiste poplíteo",
+        "quiste sinovial poplíteo"
+      ],
+      "tr": [
+        "baker kisti",
+        "gastroknemius-semimembranozis bursası",
+        "gastroknemius-semimembranozus bursası",
+        "gk-sm bursası",
+        "popliteal kist"
+      ],
+      "hr": [
+        "baker cista",
+        "bakerova cista",
+        "cista u poplitealnoj jami",
+        "poplitealna cista"
+      ],
+      "el": [
+        "ιγνυακή κύστη baker",
+        "κύστη baker",
+        "κύστη στην ιγνυακή κοιλότητα",
+        "συνοβιακή κύστη baker"
+      ],
+      "de": [
+        "baker-zyste",
+        "bakerzyste",
+        "popliteale zyste",
+        "zyste in der poplitea"
+      ],
+      "bg": [
+        "бекерова киста",
+        "киста в поплитеалната ямка",
+        "киста на бейкър",
+        "поплитеална киста"
+      ],
+      "nl": [
+        "baker-cyste",
+        "bakercyste",
+        "bakerse cyste",
+        "popliteale cyste"
+      ],
+      "fr": [
+        "kyste de baker",
+        "kyste poplité",
+        "kyste poplité de baker"
+      ]
+    },
+    "Contusion": {
+      "en": [
+        "bone bruise",
+        "bone contusion",
+        "bone marrow edema",
+        "bone marrow oedema",
+        "osseous contusion"
+      ],
+      "es": [
+        "contusión medular",
+        "contusión ósea",
+        "edema de médula ósea",
+        "edema óseo"
+      ],
+      "tr": [
+        "kemik iliği ödemi",
+        "kemik kontüzyonu",
+        "kontüzyon",
+        "kontüzyonel kemik iliği ödemi"
+      ],
+      "hr": [
+        "edem koštane srži",
+        "kontuzija kosti",
+        "koštana kontuzija",
+        "koštani edem",
+        "postkontuzijski edem"
+      ],
+      "el": [
+        "bone bruise",
+        "οστεομυελικό οίδημα",
+        "οστική θλάση",
+        "οστικό bruise",
+        "οστικός μώλωπας"
+      ],
+      "de": [
+        "bone bruise",
+        "bone-bruise-areal",
+        "knochenkontusion",
+        "kontusion",
+        "kontusionsödem"
+      ],
+      "bg": [
+        "контузионен костномозъчен едем",
+        "костен мозъчен едем",
+        "костна контузия",
+        "костно-мозъчен едем",
+        "костномозъчен едем"
+      ],
+      "nl": [
+        "beenmergoedeem",
+        "bone-bruise",
+        "botcontusie",
+        "botkneuzing",
+        "botoedeem"
+      ],
+      "fr": [
+        "contusion osseuse",
+        "contusion osseuse médullaire"
+      ]
+    },
+    "Fracture": {
+      "en": [
+        "acute fracture",
+        "avulsion fracture",
+        "fracture",
+        "impaction fracture",
+        "insufficiency fracture",
+        "stress fracture"
+      ],
+      "es": [
+        "fractura",
+        "fractura por estrés",
+        "fractura subcortical",
+        "fractura trabecular",
+        "fractura ósea"
+      ],
+      "tr": [
+        "fraktür",
+        "kırık",
+        "osteokondral kırık",
+        "subartiküler kırık",
+        "subkondral kırık"
+      ],
+      "hr": [
+        "avulzija",
+        "fraktura",
+        "frakturna lezija",
+        "prijelom"
+      ],
+      "el": [
+        "ενδοαρθρικό κάταγμα",
+        "κάταγμα",
+        "κάταγμα ανεπάρκειας",
+        "κατάγματα",
+        "μικροδοκιδώδες κάταγμα",
+        "οστεοχόνδρινο κάταγμα"
+      ],
+      "de": [
+        "fraktur",
+        "impressionsfraktur",
+        "infraktion",
+        "knochenbruch",
+        "sinterung"
+      ],
+      "bg": [
+        "костна фрактура",
+        "счупване",
+        "фрактура",
+        "фрактурна линия"
+      ],
+      "nl": [
+        "botbreuk",
+        "fracture",
+        "fractuur",
+        "insufficiëntiefractuur",
+        "subchondrale fractuur"
+      ],
+      "fr": [
+        "fracture",
+        "fracture d’avulsion",
+        "fracture sous-chondrale"
+      ]
+    }
+  },
+  "severity_low": {
+    "en": [
+      "incipient",
+      "mild",
+      "minimal",
+      "minor",
+      "slight",
+      "small",
+      "trace"
+    ],
+    "es": [
+      "discreta",
+      "discreto",
+      "fino",
+      "leve",
+      "mínima",
+      "mínimo",
+      "pequeña",
+      "pequeño"
+    ],
+    "tr": [
+      "az miktarda",
+      "hafif",
+      "hafif derecede",
+      "milimetrik",
+      "minimal",
+      "sınırlı"
+    ],
+    "hr": [
+      "blag",
+      "blaga",
+      "blago",
+      "blaža",
+      "blaže",
+      "blaži",
+      "diskretan",
+      "manja",
+      "manje",
+      "manji",
+      "minimalan",
+      "minimalna"
+    ],
+    "el": [
+      "ήπια",
+      "ήπιο",
+      "ελάχιστη",
+      "μικρή",
+      "μικρή ποσότητα",
+      "μικρή συλλογή",
+      "μικρής έκτασης",
+      "μικρό",
+      "μικρός"
+    ],
+    "de": [
+      "diskret",
+      "gering",
+      "geringe",
+      "geringes",
+      "klein",
+      "minimal",
+      "minimale",
+      "zart"
+    ],
+    "bg": [
+      "дискретен",
+      "дискретна",
+      "лекостепенен",
+      "лекостепенна",
+      "малка",
+      "малко количество",
+      "малък",
+      "минимален",
+      "минимална"
+    ],
+    "nl": [
+      "beperkt",
+      "beperkte",
+      "discreet",
+      "discrete",
+      "gering",
+      "geringe",
+      "klein",
+      "kleine",
+      "licht",
+      "lichte",
+      "minimaal",
+      "minimale"
+    ],
+    "fr": [
+      "faible",
+      "léger",
+      "légère",
+      "minime",
+      "minime quantité",
+      "non significatif",
+      "petit",
+      "petite",
+      "peu important"
+    ]
+  },
+  "severity_moderate": {
+    "en": [
+      "intermediate",
+      "moderate",
+      "moderate degree",
+      "moderate-sized"
+    ],
+    "es": [
+      "cantidad moderada",
+      "grado moderado",
+      "moderada",
+      "moderado"
+    ],
+    "tr": [
+      "belirgin derecede",
+      "orta derecede",
+      "orta düzeyde",
+      "orta miktarda"
+    ],
+    "hr": [
+      "srednje teška",
+      "srednje teško",
+      "srednje težak",
+      "srednji",
+      "umjeren",
+      "umjerena",
+      "umjereno"
+    ],
+    "el": [
+      "ικανή συλλογή",
+      "μέτρια",
+      "μέτρια ποσότητα",
+      "μέτρια συλλογή",
+      "μέτριο",
+      "μετρίας βαρύτητας",
+      "μετρίας ποσότητα"
+    ],
+    "de": [
+      "mittelgradig",
+      "mittelgradige",
+      "moderat",
+      "mäßig",
+      "mäßige",
+      "mäßiger"
+    ],
+    "bg": [
+      "среден",
+      "средна",
+      "умерен",
+      "умерена",
+      "умерено изразен",
+      "умерено количество"
+    ],
+    "nl": [
+      "gematigd",
+      "matig",
+      "matig groot",
+      "matig uitgesproken",
+      "matige",
+      "matige hoeveelheid",
+      "middelmatig"
+    ],
+    "fr": [
+      "d’importance modérée",
+      "modéré",
+      "modérée",
+      "moyen",
+      "moyenne"
+    ]
+  },
+  "severity_high": {
+    "en": [
+      "extensive",
+      "large",
+      "marked",
+      "prominent",
+      "severe",
+      "significant",
+      "substantial"
+    ],
+    "es": [
+      "extensa",
+      "extenso",
+      "importante",
+      "importante cantidad",
+      "marcada",
+      "marcado",
+      "severa",
+      "severo"
+    ],
+    "tr": [
+      "belirgin",
+      "fazla miktarda",
+      "ileri derecede",
+      "ileri düzeyde",
+      "yaygın",
+      "önemli ölçüde",
+      "şiddetli"
+    ],
+    "hr": [
+      "gotovo potpuni",
+      "izražen",
+      "izražena",
+      "izraženo",
+      "obilnija",
+      "obilniji",
+      "opsežan",
+      "opsežna",
+      "opsežno",
+      "veća",
+      "veće",
+      "veći"
+    ],
+    "el": [
+      "εκτεταμένη",
+      "εκτεταμένο",
+      "ευμεγέθη",
+      "ευμεγέθης",
+      "ικανή ποσότητα",
+      "μεγάλη ποσότητα",
+      "μεγάλη συλλογή",
+      "προχωρημένη"
+    ],
+    "de": [
+      "ausgedehnt",
+      "ausgeprägt",
+      "deutlich",
+      "flächig",
+      "groß",
+      "hochgradig",
+      "höhergradig",
+      "stark"
+    ],
+    "bg": [
+      "голям",
+      "голяма",
+      "значителен",
+      "значителна",
+      "изразен",
+      "изразена",
+      "масивен",
+      "масивна",
+      "тежка",
+      "тежък"
+    ],
+    "nl": [
+      "aanzienlijk",
+      "belangrijk",
+      "belangrijke",
+      "ernstig",
+      "extreem",
+      "fors",
+      "forse",
+      "gevorderd",
+      "uitgebreid",
+      "uitgesproken",
+      "volumineus",
+      "volumineuze"
+    ],
+    "fr": [
+      "considérable",
+      "grave",
+      "important",
+      "importante",
+      "large",
+      "largue",
+      "marqué",
+      "marquée",
+      "sévère"
+    ]
+  },
+  "extent_low_grade": {
+    "en": [
+      "grade 1",
+      "grade i",
+      "low-grade",
+      "mild sprain",
+      "sprain"
+    ],
+    "es": [
+      "distensión",
+      "esguince",
+      "grado i",
+      "lesión de bajo grado"
+    ],
+    "tr": [
+      "1. derece",
+      "grade 1",
+      "grade 1 sprain",
+      "grade i",
+      "grade i sprain",
+      "hafif dereceli sprain",
+      "hafif dereceli zedelenme",
+      "i. derece"
+    ],
+    "hr": [
+      "distenzija",
+      "lezija i. stupnja",
+      "oštećenje i. stupnja",
+      "uganuće"
+    ],
+    "el": [
+      "grade i",
+      "sprain",
+      "ήπια κάκωση",
+      "κάκωση 1ου βαθμού",
+      "μερική κάκωση grade i"
+    ],
+    "de": [
+      "distorsion",
+      "grad 1",
+      "grad i",
+      "niedriggradige läsion",
+      "zerrung"
+    ],
+    "bg": [
+      "1-ва степен",
+      "grade 1",
+      "навяхване първа степен",
+      "степен 1",
+      "тип 1"
+    ],
+    "nl": [
+      "distorsio graad 1",
+      "distorsio graad i",
+      "graad 1",
+      "graad i",
+      "laaggradig",
+      "laaggradige",
+      "sprain graad i"
+    ],
+    "fr": [
+      "bas grade",
+      "de bas grade",
+      "déchirure de bas grade",
+      "entorse de grade 1",
+      "grade i"
+    ]
+  },
+  "extent_partial": {
+    "en": [
+      "incomplete",
+      "partial",
+      "partial injury",
+      "partial tear",
+      "partial-thickness"
+    ],
+    "es": [
+      "desgarro incompleto",
+      "desgarro parcial",
+      "incompleta",
+      "incompleto",
+      "parcial",
+      "rotura de fibras",
+      "rotura incompleta",
+      "rotura parcial"
+    ],
+    "tr": [
+      "inkomplet yırtık",
+      "interstisiyel yırtık",
+      "kısmi yırtık",
+      "liflerin bir kısmında yırtık",
+      "parsiyel kopma",
+      "parsiyel yırtık"
+    ],
+    "hr": [
+      "djelomična lezija",
+      "djelomična ruptura",
+      "djelomični prekid",
+      "parcijalna lezija",
+      "parcijalna ruptura",
+      "parcijalni prekid"
+    ],
+    "el": [
+      "ενδοσυνδεσμικές ρήξεις",
+      "ενδοτενόντια ρήξη",
+      "μερική κάκωση",
+      "μερική ρήξη",
+      "μερικού πάχους",
+      "μερικώς διατεταμένες ίνες",
+      "μερικώς ρηγμένος"
+    ],
+    "de": [
+      "inkomplette ruptur",
+      "partialläsion",
+      "partialruptur",
+      "partielle läsion",
+      "partielle ruptur",
+      "teilruptur",
+      "teilweise ruptur"
+    ],
+    "bg": [
+      "непълна",
+      "непълно скъсване",
+      "парциален",
+      "парциална",
+      "частичен",
+      "частична"
+    ],
+    "nl": [
+      "gedeeltelijk",
+      "gedeeltelijke",
+      "graad 2",
+      "graad ii",
+      "onvolledig",
+      "onvolledige",
+      "partieel",
+      "partiële",
+      "partiële ruptuur",
+      "partiële scheur"
+    ],
+    "fr": [
+      "déchirure partielle",
+      "fissure partielle",
+      "partielle",
+      "partiellement",
+      "rupture partielle"
+    ]
+  },
+  "extent_high_grade": {
+    "en": [
+      "grade 3",
+      "grade 4",
+      "greater than 50% of fibres",
+      "high-grade",
+      "high-grade partial",
+      "more than 50% fibre disruption"
+    ],
+    "es": [
+      "casi total",
+      "de alto grado",
+      "extensa",
+      "prácticamente total",
+      "subtotal"
+    ],
+    "tr": [
+      "ileri dereceli parsiyel yırtık",
+      "liflerin yüzde ellisinden fazlasını tutan yırtık",
+      "tam kata yakın yırtık",
+      "tama yakın yırtık",
+      "yüksek dereceli parsiyel yırtık"
+    ],
+    "hr": [
+      "gotovo potpuna ruptura",
+      "uznapredovala parcijalna ruptura",
+      "visokogradijentna ruptura",
+      "više od 50% vlakana"
+    ],
+    "el": [
+      "grade iii",
+      "εκτεταμένη μερική ρήξη",
+      "σχεδόν πλήρης ρήξη",
+      "σχεδόν πλήρους πάχους",
+      "υφολική ρήξη",
+      "υφολικού πάχους"
+    ],
+    "de": [
+      "fast vollständige ruptur",
+      "hochgradige partialläsion",
+      "hochgradige partialruptur",
+      "nahezu vollständige diskontinuität",
+      "subtotale partialruptur",
+      "subtotale ruptur"
+    ],
+    "bg": [
+      "висока степен",
+      "високостепенен",
+      "високостепенна",
+      "над 50% от влакната"
+    ],
+    "nl": [
+      "bijna transfixerend",
+      "ernstige partiële",
+      "graad 3",
+      "graad iii",
+      "hooggradig",
+      "hooggradige",
+      "hooggradige partiële",
+      "quasi transfixerend"
+    ],
+    "fr": [
+      "de haut grade",
+      "grade iii",
+      "grade iv",
+      "grade élevé",
+      "haut grade"
+    ]
+  },
+  "extent_complete": {
+    "en": [
+      "complete",
+      "complete disruption",
+      "complete tear",
+      "discontinuity",
+      "full-thickness",
+      "total disruption"
+    ],
+    "es": [
+      "completa",
+      "completo",
+      "de ancho total",
+      "de espesor completo",
+      "de espesor total",
+      "desgarro completo",
+      "discontinuidad total",
+      "rotura completa"
+    ],
+    "tr": [
+      "bütünlük kaybı",
+      "komple yırtık",
+      "rüptür",
+      "tam kat kopma",
+      "tam kat yırtık",
+      "tam kat-tam kat yırtık"
+    ],
+    "hr": [
+      "kompletna ruptura",
+      "potpuna ruptura",
+      "potpuni gubitak",
+      "potpuni prekid",
+      "pune debljine",
+      "pune debljine hrskavice",
+      "totalna ruptura"
+    ],
+    "el": [
+      "ολική ασυνέχεια",
+      "ολική ρήξη",
+      "ολικού πάχους",
+      "πλήρης ασαφοποίηση των ινών",
+      "πλήρης ασυνέχεια",
+      "πλήρης ρήξη",
+      "πλήρους πάχους"
+    ],
+    "de": [
+      "komplette diskontinuität",
+      "komplette ruptur",
+      "totalruptur",
+      "vollschichtig",
+      "vollständige diskontinuität",
+      "vollständige ruptur"
+    ],
+    "bg": [
+      "не се изобразява",
+      "пълен",
+      "пълна",
+      "пълна руптура",
+      "пълно прекъсване",
+      "тотален",
+      "тотална"
+    ],
+    "nl": [
+      "complete",
+      "graad 4",
+      "graad iv",
+      "totale discontinuïteit",
+      "transfixerend",
+      "volledig",
+      "volledige",
+      "volledige ruptuur",
+      "volledige scheur"
+    ],
+    "fr": [
+      "atteinte de l’épaisseur totale",
+      "complet",
+      "complète",
+      "déchirure complète",
+      "pleine épaisseur",
+      "rupture complète",
+      "totale",
+      "transfixiante"
+    ]
+  },
+  "negation": {
+    "en": [
+      "intact",
+      "negative for",
+      "no",
+      "no definite",
+      "no evidence of",
+      "normal",
+      "not identified",
+      "without"
+    ],
+    "es": [
+      "dentro de límites normales",
+      "no hay",
+      "no se observa",
+      "no se observan",
+      "sin alteraciones",
+      "sin criterios categóricos de",
+      "sin criterios de",
+      "sin signos de"
+    ],
+    "tr": [
+      "bulgusu yok",
+      "devamsızlık yoktur",
+      "eşlik etmiyor",
+      "izlenmemiştir",
+      "saptanmadı",
+      "saptanmamıştır",
+      "yok",
+      "yoktur"
+    ],
+    "hr": [
+      "bez evidentne",
+      "bez jasnih znakova",
+      "bez rupture",
+      "bez sigurnih znakova",
+      "bez znakova",
+      "ne nalazi se",
+      "nema",
+      "nije vidljivo",
+      "održanog kontinuiteta"
+    ],
+    "el": [
+      "απουσία",
+      "δεν αναγνωρίζεται",
+      "δεν αναγνωρίζονται",
+      "δεν παρατηρείται",
+      "δεν παρατηρούνται",
+      "δεν παρουσιάζει παθολογικά ευρήματα",
+      "εντός του φυσιολογικού",
+      "χωρίς"
+    ],
+    "de": [
+      "intakt",
+      "kein hinweis auf",
+      "kein nachweis einer",
+      "keine rissbildung",
+      "keine zeichen einer",
+      "ohne anhalt für",
+      "ohne nachweis einer",
+      "unauffällig"
+    ],
+    "bg": [
+      "б.о.",
+      "без особености",
+      "липсват",
+      "не се виждат",
+      "не се визуализира",
+      "не се изобразява",
+      "не се установява",
+      "няма данни за",
+      "няма мр данни за"
+    ],
+    "nl": [
+      "afwezig",
+      "geen",
+      "geen aanwijzingen voor",
+      "geen afwijkingen aangetoond",
+      "intact",
+      "niet aangetoond",
+      "niet zichtbaar",
+      "normaal voorkomen",
+      "zonder aanwijzingen voor"
+    ],
+    "fr": [
+      "aucun",
+      "aucune",
+      "il n’y a pas de",
+      "intact sans déchirure",
+      "normal sans anomalie",
+      "pas de",
+      "sans",
+      "sans particularité",
+      "sans signe de",
+      "sans évidence de"
+    ]
+  },
+  "hedge": {
+    "en": [
+      "cannot exclude",
+      "may represent",
+      "no definite evidence of",
+      "possible",
+      "possibly",
+      "r/o",
+      "rule out",
+      "suspicious for",
+      "suspicious of"
+    ],
+    "es": [
+      "a descartar",
+      "impresiona",
+      "no puede excluirse",
+      "no se puede descartar",
+      "posible",
+      "posiblemente",
+      "sospecha de",
+      "sugiriendo"
+    ],
+    "tr": [
+      "?",
+      "düşünülebilir",
+      "dışlanamaz",
+      "olabilecek",
+      "olabilir",
+      "şüphe",
+      "şüphelenilen",
+      "şüpheli"
+    ],
+    "hr": [
+      "diferencijalno dijagnostički",
+      "moguća",
+      "može biti",
+      "može odgovarati",
+      "ne mogu se isključiti",
+      "ne može se isključiti",
+      "suspektna",
+      "suspektno",
+      "vjerojatniji",
+      "vjerojatno"
+    ],
+    "el": [
+      "αμφίβολης κλινικής σημασίας",
+      "δεν αποκλείεται",
+      "ενδεχόμενο",
+      "πιθανά",
+      "πιθανό",
+      "πιθανότερο",
+      "χρήζει συνεκτίμησης"
+    ],
+    "de": [
+      "am ehesten",
+      "dd ... möglich",
+      "möglich",
+      "möglicherweise",
+      "nicht sicher abgrenzbar",
+      "v. a.",
+      "verdacht auf"
+    ],
+    "bg": [
+      "вероятно",
+      "възможно",
+      "най-вероятно",
+      "не може да се изключи",
+      "подозрителен",
+      "суспектен",
+      "суспектна",
+      "суспектни данни"
+    ],
+    "nl": [
+      "eventueel",
+      "mogelijk",
+      "mogelijks",
+      "niet uit te sluiten",
+      "onder voorbehoud",
+      "sterk vermoeden van",
+      "vermoeden van",
+      "wellicht"
+    ],
+    "fr": [
+      "possiblement",
+      "potentiellement",
+      "pourrait",
+      "sans pouvoir exclure",
+      "suggérant",
+      "suspect",
+      "suspecte",
+      "suspectif",
+      "évoquant"
+    ]
+  },
+  "assertive": {
+    "en": [
+      "compatible with",
+      "consistent with",
+      "demonstrates",
+      "in favor of",
+      "in keeping with",
+      "indicative of",
+      "reflecting",
+      "represents"
+    ],
+    "es": [
+      "altamente sugerente de",
+      "compatible con",
+      "correspondiente a",
+      "en consonancia con",
+      "en relación con",
+      "impresiona como",
+      "sugerente de",
+      "sugestivo de"
+    ],
+    "tr": [
+      "ile karakterize",
+      "ile uyumlu",
+      "izlenmektedir",
+      "lehine",
+      "mevcuttur",
+      "saptanmıştır",
+      "uyumlu görünüm",
+      "uyumlu sinyal değişikliği"
+    ],
+    "hr": [
+      "kompatibilno s",
+      "odgovara",
+      "sukladno s",
+      "u skladu s",
+      "u sklopu",
+      "u smislu",
+      "upućuje na",
+      "uslijed"
+    ],
+    "el": [
+      "αποδίδεται σε",
+      "ερμηνεύεται ως",
+      "σε συνδυασμό με",
+      "στο πλαίσιο",
+      "συμβατό με",
+      "συνηγορεί υπέρ",
+      "ως επί"
+    ],
+    "de": [
+      "entsprechend",
+      "im sinne einer",
+      "im sinne von",
+      "korrespondierend",
+      "passend zu",
+      "vereinbar mit"
+    ],
+    "bg": [
+      "в израз на",
+      "във връзка с",
+      "както при",
+      "съвместима с",
+      "съответстващ на",
+      "съответстваща на",
+      "характерна за"
+    ],
+    "nl": [
+      "compatibel met",
+      "conform",
+      "in overeenstemming met",
+      "in verband met",
+      "passend bij",
+      "suggestief voor",
+      "te wijten aan"
+    ],
+    "fr": [
+      "compatible avec",
+      "correspondant à",
+      "d’allure",
+      "en faveur de",
+      "en lien avec",
+      "en rapport avec"
+    ]
+  },
+  "chronicity_acute": {
+    "en": [
+      "acute",
+      "acute injury",
+      "acute tear",
+      "recent"
+    ],
+    "es": [
+      "aguda",
+      "agudo",
+      "de aparición reciente",
+      "postraumática",
+      "postraumático",
+      "reciente",
+      "traumática",
+      "traumático"
+    ],
+    "tr": [
+      "akut",
+      "akut dönemde",
+      "travmatik",
+      "yeni"
+    ],
+    "hr": [
+      "akutni",
+      "postkontuzijski",
+      "posttraumatski",
+      "rezidualni",
+      "svježi"
+    ],
+    "el": [
+      "οξεία",
+      "οξύς",
+      "πρόσφατη",
+      "πρόσφατος",
+      "σε φάση αποδρομής"
+    ],
+    "de": [
+      "aktuell",
+      "akut",
+      "frisch",
+      "neu",
+      "traumatisch"
+    ],
+    "bg": [
+      "контузионен",
+      "остър",
+      "прясна",
+      "травматичен",
+      "травматична увреда"
+    ],
+    "nl": [
+      "acuut",
+      "na trauma",
+      "nieuw",
+      "recent",
+      "recent ontstaan",
+      "recente",
+      "traumatisch"
+    ],
+    "fr": [
+      "aigu",
+      "aiguë",
+      "d’apparence subaiguë",
+      "récent",
+      "récente",
+      "subaigu",
+      "subaiguë"
+    ]
+  },
+  "chronicity_chronic": {
+    "en": [
+      "chronic",
+      "chronic degenerative",
+      "degenerative",
+      "longstanding",
+      "old"
+    ],
+    "es": [
+      "antiguo",
+      "cambios crónicos",
+      "crónica",
+      "crónico",
+      "de larga evolución",
+      "degenerativa",
+      "degenerativo",
+      "secuela"
+    ],
+    "tr": [
+      "dejeneratif",
+      "eski",
+      "kronik",
+      "kronikleşmiş"
+    ],
+    "hr": [
+      "degenerativni",
+      "degenerativno",
+      "kronični",
+      "kronično",
+      "raniji",
+      "stariji",
+      "uznapredovali degenerativni"
+    ],
+    "el": [
+      "παλαιά",
+      "παλαιό",
+      "χρονία",
+      "χρόνια",
+      "χρόνιες μετατραυματικές αλλοιώσεις",
+      "χρόνιο"
+    ],
+    "de": [
+      "abgelaufen",
+      "alt",
+      "alte",
+      "chronisch",
+      "narbig",
+      "postoperativ-narbig",
+      "stattgehabt",
+      "vorbestehend"
+    ],
+    "bg": [
+      "дегенеративен",
+      "с давност",
+      "стар",
+      "стара",
+      "състояние след",
+      "хроничен"
+    ],
+    "nl": [
+      "chronisch",
+      "degeneratief",
+      "degeneratieve",
+      "oud",
+      "sequelaire",
+      "sequelen van",
+      "status na"
+    ],
+    "fr": [
+      "ancien",
+      "ancienne",
+      "chronique",
+      "d’allure chronique",
+      "synovite chronique",
+      "séquelle de"
+    ]
+  },
+  "meniscus_surface": {
+    "en": [
+      "articular-surface tear",
+      "contacting the articular surface",
+      "extending into the surface",
+      "extending to the surface",
+      "reaching the surface",
+      "surface-reaching signal",
+      "undersurface tear"
+    ],
+    "es": [
+      "alcanza la superficie articular",
+      "comunicación con la superficie articular",
+      "contacta con la superficie articular",
+      "contacta la superficie articular",
+      "contactar con la superficie articular",
+      "llega a la superficie articular",
+      "señal que alcanza la superficie articular"
+    ],
+    "tr": [
+      "alt eklem yüzeyine ulaşan",
+      "artiküler yüz ile ilişkili",
+      "eklem yüzeyi ile ilişkili",
+      "eklem yüzü ile devamlılık gösteren",
+      "eklem yüzüne açılan",
+      "serbest kenara ulaşan",
+      "üst eklem yüzeyine ulaşan",
+      "üst ve alt eklem yüzeylerine ulaşan"
+    ],
+    "hr": [
+      "doseže artikulacijsku plohu",
+      "komunicira sa zglobnom površinom",
+      "otvara se na artikulacijsku plohu",
+      "otvara se na zglobnu plohu",
+      "prekid zglobnih ploha",
+      "seže do artikulacijske plohe",
+      "zahvaća zglobnu plohu"
+    ],
+    "el": [
+      "εκτείνεται στην αρθρική επιφάνεια",
+      "επικοινωνεί με την αρθρική επιφάνεια",
+      "παθολογικό σήμα με επέκταση στην αρθρική επιφάνεια",
+      "ρήξη που φθάνει στην αρθρική επιφάνεια",
+      "σε επαφή με την αρθρική επιφάνεια",
+      "φθάνει στην αρθρική επιφάνεια"
+    ],
+    "de": [
+      "bis an die gelenkfläche reichend",
+      "bis an die oberfläche reichend",
+      "bis an die unterseite reichend",
+      "gelenkflächenkontakt",
+      "kontakt zur gelenkfläche",
+      "oberflächenreichend"
+    ],
+    "bg": [
+      "достига до края на менискуса",
+      "достига до ставната повърхност",
+      "достига до ставните повърхности",
+      "достига до ставния хрущял",
+      "достигаща до ставната повърхност",
+      "достигаща до ставния хрущял",
+      "комуникира със ставната повърхност"
+    ],
+    "nl": [
+      "bovenvlakte",
+      "bovenvlaktescheur",
+      "contact makend met de ondervlakte",
+      "ondervlakte",
+      "ondervlaktescheur",
+      "transfixerende scheur",
+      "uitlopend in de meniscus ondervlakte",
+      "vrije boord"
+    ],
+    "fr": [
+      "atteignant la surface articulaire",
+      "surface articulaire",
+      "surface articulaire inférieure",
+      "surface articulaire supérieure",
+      "surface fémorale",
+      "surface tibiale",
+      "s’étendant à la surface articulaire"
+    ]
+  },
+  "meniscus_intrasubstance": {
+    "en": [
+      "degenerative signal",
+      "interstitial degeneration",
+      "intrameniscal degeneration",
+      "intrasubstance degeneration",
+      "intrasubstance tear",
+      "mucoid degeneration",
+      "myxoid degeneration"
+    ],
+    "es": [
+      "alteración de señal central",
+      "aumento de señal central",
+      "aumento de señal intrameniscal",
+      "cambios hialinos",
+      "degeneración hialina",
+      "degeneración intrasustancia",
+      "hialinosis",
+      "señal intrameniscal"
+    ],
+    "tr": [
+      "dejenerasyon",
+      "intrasubstansiyel sinyal değişikliği",
+      "meniskopati",
+      "menisküs içi dejenerasyon",
+      "menisküs içi sinyal değişikliği",
+      "miksoid dejenerasyon",
+      "yapı içi sinyal artışı"
+    ],
+    "hr": [
+      "degenerativne promjene bez prekida zglobnih ploha",
+      "intrasupstancijska degeneracija",
+      "intrasupstancijski hiperintenzitet",
+      "intrasupstancijsko povišenje intenziteta signala",
+      "intrasupstancijsko povišenje signala",
+      "povišen signal unutar meniska"
+    ],
+    "el": [
+      "απλή εκφύλιση χωρίς ρήξη",
+      "δεν εκτείνεται στην αρθρική επιφάνεια",
+      "εκφυλιστικές αλλοιώσεις χωρίς ρήξη",
+      "ενδομηνισκικό παθολογικό σήμα",
+      "παθολογικό σήμα που δεν εκτείνεται στην αρθρική επιφάνεια",
+      "σήμα εντός του μηνίσκου"
+    ],
+    "de": [
+      "degenerative signalveränderungen",
+      "intrameniskale signalalteration",
+      "intrasubstanzielle signalalteration",
+      "mukoide degeneration",
+      "mukoide signalalteration",
+      "mukoide veränderung"
+    ],
+    "bg": [
+      "grade 2",
+      "дегенеративна промяна",
+      "дегенеративни промени",
+      "интрасубстанциална дегенерация",
+      "интрасубстанциална лезия",
+      "лезия, не достигаща ставната повърхност",
+      "не достига до ставната повърхност",
+      "не достига до ставния хрущял"
+    ],
+    "nl": [
+      "degeneratief signaal in de meniscus",
+      "intrameniscaal",
+      "intrameniscale degeneratie",
+      "intrasubstantieel",
+      "intrasubstantiële signaalalteraties",
+      "midsubstantieel",
+      "midsubstantiële signaalalteraties"
+    ],
+    "fr": [
+      "changements dégénératifs intra-substance",
+      "changements dégénératifs intrasubstance",
+      "changements mucoïdes dégénératifs",
+      "dégénérescence intrasubstance",
+      "dégénérescence myxoïde intrasubstance",
+      "signal dégénératif intrasubstance"
+    ]
+  },
+  "fracture_line": {
+    "en": [
+      "cortical break",
+      "cortical discontinuity",
+      "cortical disruption",
+      "fracture line",
+      "fracture lucency"
+    ],
+    "es": [
+      "discontinuidad cortical",
+      "fractura cortical",
+      "línea de fractura",
+      "línea fracturaria",
+      "solución de continuidad cortical",
+      "trazo de fractura"
+    ],
+    "tr": [
+      "fraktür hattı",
+      "kırık hattı",
+      "lineer hipointens hat",
+      "lineer kırık hattı",
+      "subartiküler lineer fraktür",
+      "subkondral kırık hattı"
+    ],
+    "hr": [
+      "avulzija",
+      "defekt kortikalisa",
+      "fraktura",
+      "frakturna linija",
+      "hipointenzivna linearna zona",
+      "kortikalni defekt",
+      "prekid kortikalisa",
+      "prijelom"
+    ],
+    "el": [
+      "απώλεια του φλοιού",
+      "γραμμή κατάγματος",
+      "διακοπή του φλοιού",
+      "καταγματική γραμμή",
+      "μικροδοκιδώδες κάταγμα",
+      "υγρό καταγματικών γραμμών"
+    ],
+    "de": [
+      "fraktur",
+      "frakturlinie",
+      "infraktion",
+      "kortikale irregulärität",
+      "kortikale unterbrechung",
+      "kortikaler defekt"
+    ],
+    "bg": [
+      "кортикална прекъснатост",
+      "линия на фрактурата",
+      "линия, успоредна на тибиалното плато",
+      "прекъсване на кортикалиса",
+      "фрактурна линия"
+    ],
+    "nl": [
+      "corticale discontinuïteit",
+      "corticale onderbreking",
+      "fractuurlijn",
+      "fractuurlijn zichtbaar",
+      "lineaire hypo-intense lijn",
+      "onderbreking van de beenplaat",
+      "transversaal t1-hypo-intens signaal"
+    ],
+    "fr": [
+      "fracture",
+      "fracture d’avulsion",
+      "fracture microtrabéculaire",
+      "fracture sous-chondrale",
+      "ligne de fracture",
+      "rupture corticale"
+    ]
+  },
+  "contusion_edema": {
+    "en": [
+      "bone bruise",
+      "bone contusion",
+      "bone marrow edema",
+      "bone marrow oedema",
+      "marrow edema",
+      "osseous contusion",
+      "subchondral bone marrow edema"
+    ],
+    "es": [
+      "contusión medular",
+      "contusión ósea",
+      "edema de médula ósea",
+      "edema medular",
+      "edema óseo",
+      "edema óseo trabecular"
+    ],
+    "tr": [
+      "kemik iliği sinyal değişiklikleri",
+      "kemik iliği ödemi",
+      "kemik iliği ödemi ile uyumlu sinyal değişikliği",
+      "kontüzyon",
+      "kontüzyonel kemik iliği ödemi",
+      "subkondral kemik iliği ödemi"
+    ],
+    "hr": [
+      "edem koštane srži",
+      "kontuzijski edem",
+      "koštana kontuzija",
+      "koštani edem",
+      "postkontuzijski koštani edem",
+      "subhondralni koštani edem",
+      "trabekularna impakcija"
+    ],
+    "el": [
+      "bone bruise",
+      "οστεομυελικό οίδημα",
+      "οστική θλάση",
+      "οστικό bruise",
+      "οστικό οίδημα",
+      "οστικός μώλωπας"
+    ],
+    "de": [
+      "bone bruise",
+      "bone-bruise-areal",
+      "intraossäres ödemsignal",
+      "knochenkontusion",
+      "knochenmarksödem",
+      "knochenödem",
+      "kontusionsödem",
+      "subchondrales ödemsignal"
+    ],
+    "bg": [
+      "контузионен костно-мозъчен едем",
+      "контузионен костномозъчен едем",
+      "костен мозъчен едем",
+      "костно-мозъчен едем",
+      "костномозъчен едем"
+    ],
+    "nl": [
+      "beenmergalteraties",
+      "beenmergoedeem",
+      "bone-bruise",
+      "botcontusie",
+      "botkneuzing",
+      "botoedeem",
+      "oedeem in het bot",
+      "subchondraal oedeem"
+    ],
+    "fr": [
+      "contusion médullaire",
+      "contusion osseuse",
+      "œdème de la moelle osseuse",
+      "œdème médullaire",
+      "œdème osseux",
+      "œdème sous-chondral réactionnel"
+    ]
+  }
+}
