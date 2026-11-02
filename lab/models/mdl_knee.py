@@ -49,12 +49,16 @@ def build_encoder_3d(cfg):
         from mdl_knee_slow import build_encoder
     elif cfg.encoder_3d == 'convnext_2p5d':
         from mdl_knee_convnext import build_encoder
+    elif cfg.encoder_3d == 'efficientnet_2p5d':
+        from mdl_knee_efficientnet import build_encoder
     else:
         raise ValueError(cfg.encoder_3d)
     return build_encoder(cfg)
 
-def encoder_features(encoder, x):
+def encoder_features(encoder, x, slot_ids=None):
     if hasattr(encoder, 'forward_features'):
+        if getattr(encoder, 'accepts_slot_ids', False):
+            return encoder.forward_features(x, slot_ids)
         return encoder.forward_features(x)
     multiscale = getattr(encoder, 'multiscale', False)
     h = encoder.stem(x)
@@ -125,16 +129,20 @@ def masked_pool(feat, smask, q=None, gate=None, spatial_q=None, spatial_gate=Non
     sg = spatial_gate.to(f.dtype).view(1, -1, 1)
     return out + sg * (spatial_attended - out)
 
-def encode_packed(cfg, encoder, x, live, smask, q=None, gate=None, spatial_q=None, spatial_gate=None, stats_out=None, pooler=None):
+def encode_packed(cfg, encoder, x, live, smask, q=None, gate=None,
+                  spatial_q=None, spatial_gate=None, stats_out=None,
+                  pooler=None, slot_ids=None):
     smask = smask[:, ::getattr(encoder, 'center_stride', 1)]
     if pooler is None:
         pooler = partial(masked_pool, q=q, gate=gate, spatial_q=spatial_q, spatial_gate=spatial_gate, stats_out=stats_out)
     if not cfg.pack_live_slots:
-        return pooler(encoder_features(encoder, x), smask)
+        return pooler(encoder_features(encoder, x, slot_ids), smask)
     if not bool(live.any()):
         live = live.clone()
         live[0] = True
-    out = pooler(encoder_features(encoder, x[live]), smask[live])
+    live_slot_ids = slot_ids[live] if slot_ids is not None else None
+    out = pooler(
+        encoder_features(encoder, x[live], live_slot_ids), smask[live])
     full = out.new_zeros((x.shape[0], *out.shape[1:]))
     full[live] = out
     return full
@@ -187,7 +195,11 @@ class SlotMIL(nn.Module):
         _g = self.slice_gate if self.cfg.slice_attn else None
         _sq = self.spatial_q if self.cfg.spatial_attn else None
         _sg = self.spatial_gate if self.cfg.spatial_attn else None
-        feats = encode_packed(self.cfg, self.encoder, x, mask.reshape(-1) > 0, smask.reshape(b * s, -1), _q, _g, _sq, _sg, stats_out, pooler=getattr(self, 'volume_pooler', None))
+        slot_ids = torch.arange(s, device=x.device).repeat(b)
+        feats = encode_packed(
+            self.cfg, self.encoder, x, mask.reshape(-1) > 0,
+            smask.reshape(b * s, -1), _q, _g, _sq, _sg, stats_out,
+            pooler=getattr(self, 'volume_pooler', None), slot_ids=slot_ids)
         feats = feats.view(b, s, *feats.shape[1:])
         if self.cfg.slice_attn:
             aux = torch.einsum('bskc,kc->bsk', feats, self.aux_head.weight) + self.aux_head.bias
@@ -269,9 +281,11 @@ class Net(SlotMIL):
 
     def optimizer_parameters(self):
         enc, head = ([], [])
+        backbone_prefix = getattr(
+            self.cfg, 'backbone_parameter_prefix', 'encoder.')
         for name, parameter in self.named_parameters():
             if parameter.requires_grad:
-                (enc if name.startswith('encoder.') else head).append(parameter)
+                (enc if name.startswith(backbone_prefix) else head).append(parameter)
         return [{'params': enc, 'lr': self.cfg.lr_backbone}, {'params': head, 'lr': self.cfg.lr_head}]
 
     def forward(self, batch):

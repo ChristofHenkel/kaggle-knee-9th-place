@@ -6,6 +6,8 @@ from timm.models.convnext import ConvNeXtStage
 import torch
 from torch import nn
 
+from mdl_knee_2p5d import optional_depth_mixer
+
 
 class ConvNeXt25D(nn.Module):
     def __init__(self, cfg):
@@ -31,8 +33,10 @@ class ConvNeXt25D(nn.Module):
         channels = torch.arange(len(cfg.slice_offsets)) % 3
         self.register_buffer('mean', torch.tensor(pretrained['mean'])[channels].view(1, -1, 1, 1), persistent=False)
         self.register_buffer('std', torch.tensor(pretrained['std'])[channels].view(1, -1, 1, 1), persistent=False)
+        self.depth_mixer = optional_depth_mixer(cfg, self.out_channels)
+        self.accepts_slot_ids = True
 
-    def forward_features(self, x):
+    def forward_features(self, x, slot_ids=None):
         n, _, depth, height, width = x.shape
         centers = torch.arange(0, depth, self.center_stride, device=x.device)
         if self.native_triplets:
@@ -46,7 +50,12 @@ class ConvNeXt25D(nn.Module):
         if self.channels_last:
             images = images.contiguous(memory_format=torch.channels_last)
         features = self.backbone(images)[0]
-        return features.reshape(n, len(centers), self.out_channels, *features.shape[-2:]).permute(0, 2, 1, 3, 4)
+        features = features.reshape(
+            n, len(centers), self.out_channels,
+            *features.shape[-2:]).permute(0, 2, 1, 3, 4)
+        if self.depth_mixer is not None:
+            features = self.depth_mixer(features, slot_ids)
+        return features
 
 
 def build_encoder(cfg):
