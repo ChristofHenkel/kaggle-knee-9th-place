@@ -15,8 +15,9 @@ def export(config, run_root, output):
     cfg = importlib.import_module(config).cfg
     run_root, output = Path(run_root), Path(output)
     output.mkdir(parents=True, exist_ok=True)
-    fullfit = config in ('cfg_1_91', 'cfg_8_31')
-    variant = 'ema' if config in ('cfg_8_29', 'cfg_8_31', 'cfg_8_32') else 'model'
+    fullfit = config in ('cfg_1_91', 'cfg_8_31', 'cfg_v311', 'cfg_v313')
+    variant = 'ema' if config in (
+        'cfg_8_29', 'cfg_8_31', 'cfg_8_32', 'cfg_v311', 'cfg_v313') else 'model'
     members = []
     for index in range(1 if config == 'cfg_18_7' else 5):
         folder = run_root / f'repeat{index + 1}' / 'fold-1' if fullfit else run_root / f'fold{index}'
@@ -42,7 +43,9 @@ def export(config, run_root, output):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--config', choices=['cfg_1_85', 'cfg_1_91', 'cfg_8_29', 'cfg_8_31', 'cfg_8_32', 'cfg_18_7'], required=True)
+    parser.add_argument('--config', choices=[
+        'cfg_1_85', 'cfg_1_91', 'cfg_8_29', 'cfg_8_31', 'cfg_8_32',
+        'cfg_18_7', 'cfg_v311', 'cfg_v313'], required=True)
     parser.add_argument('--run-root')
     parser.add_argument('--output')
     args = parser.parse_args()

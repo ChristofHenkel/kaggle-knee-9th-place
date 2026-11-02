@@ -24,7 +24,10 @@ def table(path):
     frame = pd.read_csv(path)
     frame.columns = frame.columns.str.strip()
     frame.StudyInstanceUID = frame.StudyInstanceUID.str.strip()
-    return frame.set_index('StudyInstanceUID', verify_integrity=True)
+    frame = frame.set_index('StudyInstanceUID')
+    if not frame.index.is_unique:
+        raise ValueError(f'Duplicate StudyInstanceUID values: {path}')
+    return frame
 
 
 def canonical():
