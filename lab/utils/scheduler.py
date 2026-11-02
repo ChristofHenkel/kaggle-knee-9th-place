@@ -82,7 +82,7 @@ def get_scheduler(cfg, optimizer, total_steps):
     elif cfg.schedule == "parag_cosine":
         steps_per_epoch = getattr(cfg, 'optimizer_steps_per_epoch',
                                   (total_steps // cfg.batch_size) // cfg.grad_accumulation)
-        steps = max(cfg.epochs * steps_per_epoch, 1)
+        steps = max(getattr(cfg, 'schedule_epochs', cfg.epochs) * steps_per_epoch, 1)
         warm = max(int(cfg.warmup_frac * steps), 1)
         def lr_scale(step):
             if step < warm:

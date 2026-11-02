@@ -142,8 +142,10 @@ def get_train_dataloader(train_ds, cfg):
     if hasattr(train_ds, 'get_sampler'):
         sampler = train_ds.get_sampler(cfg)
     elif getattr(cfg, 'balanced_batches', False):
+        balance_batch_size = getattr(
+            cfg, 'sampler_batch_size', cfg.batch_size)
         sampler = DistributedSizeBalancedSampler(train_ds.sample_sizes, train_ds.sample_weights,
-                                                  cfg.batch_size, cfg.world_size, cfg.rank, cfg.seed)
+                                                  balance_batch_size, cfg.world_size, cfg.rank, cfg.seed)
     elif cfg.distributed:
         if getattr(cfg, 'distributed_weighted_sampling', False):
             sampler = DistributedWeightedSampler(train_ds.sample_weights,

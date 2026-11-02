@@ -224,6 +224,32 @@ def decode_volume(paths):
     return slices
 
 def read_study(cfg, uid, series, image_root):
+    if cfg.dataset == 'ds_knee_cached_shards':
+        from scripts.dicom_series_to_processed_npz import (
+            SLOTS as cached_slots, cfg as cached_cfg, preprocess_study)
+        expected = {
+            'slot_names': tuple(cached_slots),
+            'slices_per_slot': cached_cfg.slices_per_slot,
+            'input_channels': 3,
+            'img_px': cached_cfg.img_px,
+            'crop_mm': cached_cfg.crop_mm,
+            'pct_low': cached_cfg.pct_low,
+            'pct_high': cached_cfg.pct_high,
+            'triplet_delta_mm': cached_cfg.triplet_delta_mm,
+            'normalize_laterality': cached_cfg.normalize_laterality,
+        }
+        mismatches = {
+            key: (getattr(cfg, key), value)
+            for key, value in expected.items()
+            if getattr(cfg, key) != value
+        }
+        if mismatches:
+            raise ValueError(
+                f'cached_shards inference config differs from converter: '
+                f'{mismatches}')
+        return preprocess_study(
+            uid, series, image_root,
+            getattr(cfg, 'laterality_workers', 1))
     if cfg.dataset == 'ds_knee_cached_triplet':
         from copy import copy
         from ds_knee_cached_triplet import cached_triplets
@@ -297,6 +323,13 @@ class CachedDataset(Dataset):
             frame = pd.read_csv(cfg.train_df).set_index('StudyInstanceUID').loc[self.uids].reset_index()
             self.triplets = CustomDataset(frame, cfg, mode='val')
             return
+        if cfg.dataset == 'ds_knee_cached_shards':
+            from ds_knee_cached_shards import CustomDataset
+            frame = pd.read_csv(cfg.train_df).set_index(
+                'StudyInstanceUID').loc[self.uids].reset_index()
+            self.cached_shards = CustomDataset(
+                frame, cfg, mode='val')
+            return
         root = Path(cfg.cache_dir)
         self.images = np.load(root / 'images.npy', mmap_mode='r')
         self.mask = np.load(root / 'mask.npy', mmap_mode='r')
@@ -317,6 +350,15 @@ class CachedDataset(Dataset):
             item = self.triplets[index]
             images, mask, smask = (item[key].numpy() for key in ('images', 'mask', 'smask'))
             return {'images': item['images'], 'mask': item['mask'], 'smask': item['smask'], 'uid': self.uids[index], 'digest': image_digest(images, mask, smask)}
+        if self.cfg.dataset == 'ds_knee_cached_shards':
+            item = self.cached_shards[index]
+            images, mask, smask = (
+                item[key].numpy()
+                for key in ('images', 'mask', 'smask'))
+            return {
+                'images': item['images'], 'mask': item['mask'],
+                'smask': item['smask'], 'uid': self.uids[index],
+                'digest': image_digest(images, mask, smask)}
         row = self.rows[index]
         images = self.images[row][:, :, None].copy()
         mask, smask = (self.mask[row].copy(), self.smask[row].copy())
