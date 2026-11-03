@@ -1,0 +1,173 @@
+{
+  "origin": "i-pan/rsna-knee / SKPv2 (MIT)",
+  "experiments": [
+    "exp-0765",
+    "exp-0766",
+    "exp-0767",
+    "exp-0768",
+    "exp-0769"
+  ],
+  "files": [
+    {
+      "path": "scripts/convert_dicom_to_png.py",
+      "source_sha256": "1a07c5d1fc46348f66cd231f2b88c0526c561afc5c8bc31eff285f958ad6cd6b"
+    },
+    {
+      "path": "scripts/train_rect_router_lowram.py",
+      "source_sha256": "0ee86b7dd4f3424fd94048100288e8cc43abe400bb2f6a504401d229afea4286"
+    },
+    {
+      "path": "scripts/train_two_view_ema.py",
+      "source_sha256": "8b44857c524b6a7b84c48e07b4a073eeff5568304479a8e89fd382fb3af6291b"
+    },
+    {
+      "path": "src/skp/__init__.py",
+      "source_sha256": "e06e51bf308c8253d06d11091175341fd20c045a6f2d3bdb5ae2f8ede8f9854e"
+    },
+    {
+      "path": "src/skp/callbacks/__init__.py",
+      "source_sha256": "6835b67932122a88a2d6147d08b5f84f9f5e18aee654e403cc9e31ea1cfbccd4"
+    },
+    {
+      "path": "src/skp/callbacks/console_log.py",
+      "source_sha256": "9166a6f6385ff422ff7ec2f06837d6b6e1996ad54623080d4c4dc33d7f9514b0"
+    },
+    {
+      "path": "src/skp/callbacks/ema.py",
+      "source_sha256": "c5bbdd70a45d6f86f87bb2f2cbbbc6c5f35bc3478f8a2798868cbc4694e327f6"
+    },
+    {
+      "path": "src/skp/callbacks/ema_callback.py",
+      "source_sha256": "d0a7fdee344ba93036b15b33fb2786349e71e1beea222e67ab1ffcc9cdec0e9e"
+    },
+    {
+      "path": "src/skp/callbacks/final_checkpoint.py",
+      "source_sha256": "902779bdcbdc4d115bae696d7cda1df41b434310e6c1197a05bb39d4c9fe35ac"
+    },
+    {
+      "path": "src/skp/callbacks/gpu_stats_logger.py",
+      "source_sha256": "8c2713b4119a4eea5423a2ac3371dcb0a4e6aae596af88b74847343377d4dae6"
+    },
+    {
+      "path": "src/skp/callbacks/mlflow_system_monitor.py",
+      "source_sha256": "05d05a3edf7e02eb50027d8788010bc8d28383b2b2386a619e199db1a0a9ed1e"
+    },
+    {
+      "path": "src/skp/callbacks/utils.py",
+      "source_sha256": "5db04b8fdbfb76e968d5b0e4139bcbe3da95904be7b9b36fb3624f0aed993f63"
+    },
+    {
+      "path": "src/skp/configs/__init__.py",
+      "source_sha256": "ee2b184f70f11c8d480c8be63194ff56518ede4c203f1996bbfc1fef6099ac73"
+    },
+    {
+      "path": "src/skp/configs/base.py",
+      "source_sha256": "7c89d9487bf779e94466179d46ee84f032062862ebbfbffc25f957de8c693ca5"
+    },
+    {
+      "path": "src/skp/datasets/__init__.py",
+      "source_sha256": "019e3e37b5c12c8da7fb7dd18ffe13d1c613b38e11dc0a9dd48f109ccbdbbd53"
+    },
+    {
+      "path": "src/skp/datasets/rsna_knee_png.py",
+      "source_sha256": "65454b7fc86c8f33a150d9c46ed60738ac3c03e33bbb6bf0633f93abf4c1db89"
+    },
+    {
+      "path": "src/skp/environment.py",
+      "source_sha256": "7621e50a2db8fd9cc86c6d1046147d4447c0d5a7d8815b740129be7f460f48ef"
+    },
+    {
+      "path": "src/skp/metrics/__init__.py",
+      "source_sha256": "88d27ad15daa2a7fe80e1f85dd245febd34f266ae043ac42c0be86631fa17af3"
+    },
+    {
+      "path": "src/skp/metrics/rsna_knee.py",
+      "source_sha256": "c9bba26215721f07d33b28f979e8a055e588fbf71f18123a73ea6e544a201a1e"
+    },
+    {
+      "path": "src/skp/metrics/utils.py",
+      "source_sha256": "40784038500a6da50a33b913c30bbbdde965c9ec19fc9cd413fba2fa6f7a5e04"
+    },
+    {
+      "path": "src/skp/models/__init__.py",
+      "source_sha256": "c0a6da5ea529fe60ee9fd1c785f4b0a828e5982d19445810145ec710864b90a1"
+    },
+    {
+      "path": "src/skp/models/classification/rsna_knee_maxvit_compartment_router.py",
+      "source_sha256": "d5a58d8cda99d9c5dc723444966236bad1bbbb53030c465a42797b814e193dd0"
+    },
+    {
+      "path": "src/skp/models/classification/rsna_knee_maxvit_rect_router.py",
+      "source_sha256": "8c9da2026e43efd918ad5969518d799a0fe1ac14445194066cc0226804316117"
+    },
+    {
+      "path": "src/skp/models/classification/rsna_knee_maxvit_two_view_rect_router.py",
+      "source_sha256": "f4237ef1a16969065281e90810da4618536164ba312ee366fc515409656b7350"
+    },
+    {
+      "path": "src/skp/models/classification/rsna_knee_maxvit_two_view_router.py",
+      "source_sha256": "c6ee165727a252031ee321e05545ab22aadfba8719aa85f878dc3aa2d32a57b1"
+    },
+    {
+      "path": "src/skp/optim/__init__.py",
+      "source_sha256": "88c5776c67230e5448e5bf9ffa2391bc2aabf9d00877878b202f3bdf8bd973e0"
+    },
+    {
+      "path": "src/skp/optim/linear_warmup_cosine_annealing.py",
+      "source_sha256": "bacaa6b26de72b74c29e3633f59b5d330ab3f97e52db2a80d9fa9424f0077589"
+    },
+    {
+      "path": "src/skp/optim/param_grouper.py",
+      "source_sha256": "98a8c0fb6d349a6273029707d8e5e9b0a01d6a76bad55aaddc180e66abd52c30"
+    },
+    {
+      "path": "src/skp/runners.py",
+      "source_sha256": "9ce566cf36bd51d9094d3b6afc176022d4d94ff913277d4f84e1acffcbcb92cc"
+    },
+    {
+      "path": "src/skp/search.py",
+      "source_sha256": "596690f5a55f36c99e6bc3d3c96a9b42f19d11d2fc47cc288613b585d078e511"
+    },
+    {
+      "path": "src/skp/tasks/base.py",
+      "source_sha256": "ec509c87ac077ae23ec4923d2f368b0d2fe5289f85f15eaac66f2440949b21f0"
+    },
+    {
+      "path": "src/skp/tasks/classification.py",
+      "source_sha256": "a6add6c9a12a583ad1a132e0e6aa693f04797ab441782ab481bc24ab92b242fc"
+    },
+    {
+      "path": "src/skp/tasks/rsna_knee.py",
+      "source_sha256": "be81fb1a92d75d0e353564cd0b7335d8d1a1b1d83348f0374445272c9c83d25c"
+    },
+    {
+      "path": "src/skp/tasks/rsna_knee_oof.py",
+      "source_sha256": "3925e513d3d8abfa24effff0c5eb472fba5c7a5c3b3a16d616958b5c309f78ff"
+    },
+    {
+      "path": "src/skp/tasks/samplers.py",
+      "source_sha256": "3a6c0090b6176dbcb76fcdd24ff73b96da341bf35f00218b0cbb1b1ead68c228"
+    },
+    {
+      "path": "src/skp/tasks/utils.py",
+      "source_sha256": "9497b47696be5a1f4b25d78524547cbb711e17900b1fe1fc0a0ed4bd1a453727"
+    },
+    {
+      "path": "src/skp/toolbox/__init__.py",
+      "source_sha256": "6b4c15802df19a78d54a8ce08287b343f7fde974237ebd43e62537ccf8ab8ea0"
+    },
+    {
+      "path": "src/skp/toolbox/dicom.py",
+      "source_sha256": "4c92260b6caeed29c33472d2814cd56257ed727333d14eeaef7ebdbc1865c6b6"
+    },
+    {
+      "path": "src/skp/tracking.py",
+      "source_sha256": "01b4addf328203842ab68d28d173595541053a14131008dfe17db743a0704980"
+    },
+    {
+      "path": "src/skp/train.py",
+      "source_sha256": "9f7aee1e3ccbb49bf1f48e8f52de06acb7030d40aa1e54491dbc1ead3bfe4786"
+    }
+  ],
+  "notes": "Source hashes before documented portability-only edits. No checkpoints or private data included."
+}

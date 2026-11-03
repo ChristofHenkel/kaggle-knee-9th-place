@@ -2,7 +2,7 @@
 
 Training and label code for the 9th place knee MRI solution.  
 
-Training source for teammate components `v307`, `v310`, `v311`, and `v313` is included below. Training source for `l185conf1` will be added later. Their inference is already embedded in the inference notebook.
+Training source for teammate components `v307`, `v310`, `v311`, and `v313` is included below. The `l185conf1` dual-view MaxViT FS router is documented in [maxvit/README.md](maxvit/README.md), including preprocessing, the exact training recipe, final EMA exports and OOF pooling. Their inference is already embedded in the inference notebook.
 
 ## Environment
 
@@ -37,6 +37,11 @@ PY
 ```
 
 All commands below run from the repository root. Training, validation, and transfer inference use `lab/main.py`. Inputs and regenerated caches live under `assets/`; checkpoints, OOFs, and logs live under `outputs/`. 
+
+The isolated `l185conf1` MaxViT component instead uses `python -m maxvit.cli`
+and additional dependencies from `maxvit/requirements.txt`. It reuses the same
+bundled L85 labels/folds and frozen geometry, but has its own PNG preprocessing
+and single-GPU training path; do not substitute the other models' image caches.
 
 Slow-R50 recipes use four GPUs and the retained `8_*` ConvNeXt recipes use eight, with batch size two per GPU for DDP training. Each `v307`/`v310` fold and each `v311`/`v313` fullfit member uses one GPU with study batch two and two-step accumulation.
 
