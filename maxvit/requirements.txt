@@ -1,0 +1,13 @@
+# Add to the repository container environment; do not reinstall torch/torchvision.
+# Original run: torch 2.6.0+cu124, torchvision 0.21.0+cu124, timm 1.0.27.
+# The repository's timm 1.0.25 is tested separately for model compatibility.
+lightning==2.6.5
+torchmetrics==1.9.0
+# Full mlflow requires pandas<3, conflicting with the root's pandas==3.0.6.
+# Training only needs the client; run the server in a separate environment.
+mlflow-skinny==3.13.0
+petname==2.9
+python-dotenv==1.2.2
+einops==0.8.2
+psutil==7.2.2
+nvidia-ml-py==13.610.43
